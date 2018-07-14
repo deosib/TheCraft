@@ -89,11 +89,50 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\css\swipebox.css" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\about.jpg" />
+    <Content Include="images\arrows.png" />
+    <Content Include="images\b1.png" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\bb1.jpg" />
+    <Content Include="images\bb2.jpg" />
+    <Content Include="images\bb3.jpg" />
+    <Content Include="images\bb4.jpg" />
+    <Content Include="images\co.png" />
+    <Content Include="images\g1.jpg" />
+    <Content Include="images\g2.jpg" />
+    <Content Include="images\g3.jpg" />
+    <Content Include="images\g4.jpg" />
+    <Content Include="images\g5.jpg" />
+    <Content Include="images\g6.jpg" />
+    <Content Include="images\icons.png" />
+    <Content Include="images\sb1.jpeg" />
+    <Content Include="images\sb2.jpg" />
+    <Content Include="images\sb3.jpg" />
+    <Content Include="images\servicesbg.jpg" />
+    <Content Include="images\statsbg.jpg" />
+    <Content Include="images\t1.jpg" />
+    <Content Include="images\t2.jpg" />
+    <Content Include="images\t3.jpg" />
+    <Content Include="Scripts\vendors\bootstrap.js" />
+    <Content Include="Scripts\vendors\controls.js" />
+    <Content Include="Scripts\vendors\easing.js" />
+    <Content Include="Scripts\vendors\jquery-1.11.1.min.js" />
+    <Content Include="Scripts\vendors\jquery.adipoli.min.js" />
+    <Content Include="Scripts\vendors\jquery.filterizr.js" />
+    <Content Include="Scripts\vendors\jquery.swipebox.min.js" />
+    <Content Include="Scripts\vendors\numscroller-1.0.js" />
+    <Content Include="Scripts\vendors\responsiveslides.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -101,7 +140,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="packages.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Menu.cshtml" />
+    <Content Include="Views\Home\Workshop.cshtml" />
+    <Content Include="Views\Home\Blog.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -111,7 +166,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

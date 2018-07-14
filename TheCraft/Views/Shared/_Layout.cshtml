@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The CRAFT Pâtisserie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="The CRAFT Pâtisserie" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    
+    <link href="~/Content/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="~/Content/css/style.css" type="text/css" media="all" />
+    <link href="~/Content/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+
+    <script src="~/Scripts/vendors/jquery-1.11.1.min.js"></script>
+    <script src="~/Scripts/vendors/bootstrap.js"></script>
+
+    <script type="text/javascript" src="~/Scripts/vendors/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+    <script type="text/javascript" src="~/Scripts/vendors/numscroller-1.0.js"></script>
+</head>
+<body>
+    <div class="header-tc">
+        <div class="header-top-agile">
+            <div class="container">
+                <div class="tc-address text-center">
+                    <span>Số 39 Làng Yên Phụ, Hà Nội | 01AM-11PM</span>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="header-bottom-agile">
+            <div class="navigation">
+                <nav class="navbar navbar-default cl-effect-16" id="cl-effect-16">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div id="navbar" class="navbar-collapse navbar-right collapse hover-effect">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="~/Home/Index">HOME</a></li>
+                            <li><a href="~/Home/Menu">MENU</a></li>
+                            <li><a href="~/Home/Workshop">WORKSHOP</a></li>
+                            <li><a href="~/Home/Blog">BLOG</a></li>
+                            <li><a href="~/Home/About">ABOUT</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="sns-icons">
+                <ul>
+                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    @RenderBody()
+</body>
+</html>
