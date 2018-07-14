@@ -1,7 +1,8 @@
 body {
     padding: 0;
     margin: 0;
-    background: #000;
+    background: #FFF;
+    font-family: 'Saira Semi Condensed', sans-serif;
 }
 
     body a {
@@ -20,6 +21,85 @@ body {
         body a:focus, a:hover {
             text-decoration: none;
         }
+
+.container {
+    padding: initial;
+    margin: initial;
+}
+
+.tc-top-container {
+    position: fixed;
+}
+
+.tc-address {
+    font-family: 'Baloo Bhai', cursive;
+    letter-spacing: 0.05em;
+    text-align: center;
+    line-height: 40px;
+    color: #E8E8E8;
+}
+
+.tc-brand {
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+.tc-slogan {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+    color: #fff;
+}
+
+.tc-slogan-ln1 {
+    letter-spacing: 0.03em;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.tc-slogan-ln2 {
+    margin-top: 15px;
+    font-size: 9em;
+    letter-spacing: 0.1em;
+    line-height: 1em;
+    font-family: 'Bungee', cursive;
+}
+
+.menu-ref {
+    width: 130px;
+    height: 42px;
+    margin: 30px auto;
+    text-align: center;
+    border: solid rgba(255, 255, 255, 1) 2px;
+}
+    .menu-ref a {
+        cursor: pointer !important;
+        padding: 10px 36px;
+        line-height: 40px;
+    }
+        .menu-ref a span {
+            transition: color 0.4s ease 0s;
+            color: #FFFFFF;
+            font-size: 22px;
+            font-weight: 600;
+            margin: auto;
+        }
+.menu-ref:hover {
+    background-color: #000;
+    border: none;
+    opacity: .9;
+}
+
+.tc-b1-img {
+    background: url('../../images/tc-b2.jpg') no-repeat;
+    background-size: cover;
+    min-height: 650px;
+}
 
 input[type="button"], input[type="submit"] {
     transition: 0.5s all;
@@ -62,18 +142,54 @@ img {
 
 /*--header --*/
 .header-top-agile {
-    background: #242323;
-    padding: 18px 0;
+    background: #141414;
+    padding: 10px 0;
 }
+
+.logo-agileinfo {
+    width: 30%;
+    float: left;
+}
+
+    .logo-agileinfo h1 {
+        text-align: left;
+        font-size: 35px;
+        font-family: 'Berkshire Swash', cursive;
+    }
+
+        .logo-agileinfo h1 a {
+            color: #2F2E2E;
+        }
+
+.social-icons-agileits {
+    float: right;
+    text-align: right;
+    margin-top: 8px;
+}
+
+    .social-icons-agileits ul li {
+        display: inline-block;
+        background-color: black;
+        width: 39px;
+        height: 38px;
+        border-radius: 50%;
+        line-height: 35px;
+        text-align: center;
+    }
+
+        .social-icons-agileits ul li a {
+            color: #fff;
+            font-size: 16px;
+            padding: 10px;
+            transition: 0.5s all;
+            -webkit-transition: 0.5s all;
+            -moz-transition: 0.5s all;
+            -o-transition: 0.5s all;
+            -ms-transition: 0.5s all;
+        }
 
 .navigation {
     padding: 0;
-    padding: 15px 30px;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: #2F2E2E;
-    transition: color 0.4s ease 0s;
 }
 
 .navbar-default {
@@ -88,8 +204,13 @@ img {
 }
 
 .nav > li > a {
-    padding: 15px;
+    padding: 15px 30px;
     font-weight: 600;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:focus {
+    color: #2F2E2E;
+    transition: color 0.4s ease 0s;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -115,18 +236,21 @@ img {
     min-width: 130px;
 }
 
-.tc-banner-1 {
-    min-height: 80vh;
-    background-color: #F9DB79;
+/*--banner --*/
+.banner-w3l {
+    background: url(../../images/banner.jpg) no-repeat;
+    background-size: cover;
+    min-height: 750px;
+    text-align: center;
 }
 
-.tc-banner-1 h3 {
-    text-align: center;
-    padding-top: 15%;
-    color: #eee;
-    letter-spacing: 2px;
-    font-size: 23px;
-}
+    .banner-w3l h3 {
+        text-align: center;
+        padding-top: 15%;
+        color: #eee;
+        letter-spacing: 2px;
+        font-size: 23px;
+    }
 
 label.line {
     height: 1.5px;
@@ -136,14 +260,14 @@ label.line {
     display: block;
 }
 
-.tc-banner-1 .tc-name {
-    width: 30%;
-    font-size: 35px;
-    text-align: center;
-    padding: 20px 0;
+.banner-w3l h2 {
+    border: 2px solid #fff;
+    width: 25%;
+    font-size: 40px;
+    padding: 8px 0;
     margin: 0 auto;
-    color: #2F2F2E;
-    height: 12vh;
+    color: #fff;
+    letter-spacing: 4px;
 }
 
 .arrow {
@@ -160,9 +284,6 @@ label.line {
 /*--//banner --*/
 
 /*-- banner-bottom--*/
-.banner-btm-w3-agile, .services-wthree, .services-bottom, .w3layouts-gal, .contact-agile, .blog-section, .team-section, .main-grid-border, .about-w3layouts {
-    padding: 50px 0;
-}
 
     .banner-btm-left-w3ls h3, .services-wthree h3, .footer-middle-w3-agileits h3, .services-bottom h3, .subscribe h3, .sub-banner-wthree h2, .team-section h2, .sub-banner-wthree h3, .about-bottom h3 {
         font-size: 40px;
@@ -176,7 +297,7 @@ label.line {
 
 .banner-btm-left-w3ls h4, .service-grids h4, .services-bottom-right h4, .services-bottom-left h4, h3.agileits-icons-title, .typography h3.head-top, .about-text-w3ls h4 {
     font-size: 23px;
-    color: #706D6D;
+    color: #2F2E2E;
     margin: 10px 0 30px 0;
     letter-spacing: 2px;
 }
@@ -386,7 +507,7 @@ p.w3layouts {
 }
 
 a.spcl, .about-bottom a {
-    background: #706D6D;
+    background: #2F2E2E;
     border: 2px solid transparent;
     color: #eee;
     padding: 5px 15px;
@@ -488,7 +609,7 @@ p.stats-info {
     }
 
         .footer-left-agile h1 a {
-            color: #706D6D;
+            color: #2F2E2E;
         }
 
     .footer-left-agile p {
@@ -522,7 +643,7 @@ ul.gap {
 }
 
 .footer-right-w3layouts {
-    background: #706D6D;
+    background: #2F2E2E;
     padding: 30px;
 }
 
@@ -770,7 +891,7 @@ ul.gap {
         .ih-item.circle.effect1 .spinner {
             width: 230px;
             height: 230px;
-            border: 10px solid #706D6D;
+            border: 10px solid #2F2E2E;
             border-right-color: #fff;
             border-bottom-color: #fff;
             border-radius: 50%;
@@ -971,7 +1092,7 @@ ul.simplefilter {
 }
 
     .simplefilter li.active {
-        background-color: #706D6D;
+        background-color: #2F2E2E;
     }
 /*-- img-hover-effect --*/
 .adipoli-wrapper {
@@ -1151,7 +1272,7 @@ table.table h1, table.table h2, table.table h3, table.table h4, table.table h5, 
     text-align: left;
     font-size: 25px;
     margin-bottom: 20px;
-    color: #706D6D;
+    color: #2F2E2E;
     letter-spacing: 2px;
 }
 
@@ -1200,7 +1321,7 @@ table.table h1, table.table h2, table.table h3, table.table h4, table.table h5, 
 }
 
 .contact-agile input[type="submit"], .subscribe input[type="submit"] {
-    background: #706D6D;
+    background: #2F2E2E;
     border: 2px solid transparent;
     color: #eee;
     padding: 9px 15px;
@@ -1286,7 +1407,7 @@ table.table h1, table.table h2, table.table h3, table.table h4, table.table h5, 
 }
 
 .leave h4, h4.tz-title-4.tzcolor-blue {
-    color: #706D6D;
+    color: #2F2E2E;
     font-size: 3em;
     font-weight: 400;
     margin-top: 0.5em;
@@ -1354,7 +1475,7 @@ p.form-submit {
     text-transform: uppercase;
     text-decoration: none;
     -webkit-appearance: none;
-    background: #706D6D;
+    background: #2F2E2E;
     line-height: 13px;
     border: 2px solid transparent;
     outline: none;
@@ -1415,7 +1536,7 @@ h5.m_26 a {
     text-transform: uppercase;
     text-decoration: none;
     -webkit-appearance: none;
-    background: #706D6D;
+    background: #2F2E2E;
     line-height: 13px;
     border: 2px solid transparent;
 }
@@ -1585,7 +1706,7 @@ p.post a {
 }
 
 @media screen and (max-width: 1080px) {
-    .tc-banner-1 {
+    .banner-w3l {
         background: url(../../images/banner.jpg) no-repeat 0px -135px;
         background-size: cover;
         min-height: 510px;
@@ -1667,7 +1788,12 @@ p.post a {
         padding: 15px 24px;
     }
 
-    .tc-banner-1 h2 {
+    .search {
+        width: 30%;
+        float: left;
+    }
+
+    .banner-w3l h2 {
         width: 28%;
     }
 
@@ -1818,11 +1944,11 @@ p.post a {
 }
 
 @media screen and (max-width: 900px) {
-    .tc-banner-1 {
+    .banner-w3l {
         min-height: 452px;
     }
 
-        .tc-banner-1 h2 {
+        .banner-w3l h2 {
             width: 32%;
         }
 
@@ -1840,12 +1966,12 @@ p.post a {
 }
 
 @media screen and (max-width: 800px) {
-    .tc-banner-1 h3 {
+    .banner-w3l h3 {
         text-align: center;
         padding-top: 11%;
     }
 
-    .tc-banner-1 {
+    .banner-w3l {
         min-height: 387px;
     }
 
@@ -1904,11 +2030,15 @@ p.post a {
 }
 
 @media screen and (max-width: 768px) {
-    .tc-banner-1 {
+    .sb-search-input {
+        font-size: 13px;
+    }
+
+    .banner-w3l {
         min-height: 365px;
     }
 
-        .tc-banner-1 h2 {
+        .banner-w3l h2 {
             width: 36%;
         }
 
@@ -1947,6 +2077,11 @@ p.post a {
         width: 65%;
     }
 
+    .search {
+        width: 35%;
+        float: left;
+    }
+
     .navbar-toggle {
         float: none;
     }
@@ -1961,7 +2096,7 @@ p.post a {
 
         .navbar-default .navbar-toggle {
             border-color: transparent;
-            background: #706D6D;
+            background: #2F2E2E;
             border-radius: 0;
         }
 
@@ -1977,15 +2112,15 @@ p.post a {
         margin: 0;
     }
 
-    .tc-banner-1 {
+    .banner-w3l {
         min-height: 344px;
     }
 
-        .tc-banner-1 h3 {
+        .banner-w3l h3 {
             padding-top: 10%;
         }
 
-        .tc-banner-1 h2 {
+        .banner-w3l h2 {
             font-size: 37px;
         }
 
@@ -2080,7 +2215,7 @@ p.post a {
 }
 
 @media screen and (max-width: 667px) {
-    .tc-banner-1 {
+    .banner-w3l {
         background: url(../../images/banner.jpg) no-repeat 0px -89px;
         background-size: cover;
     }
@@ -2152,7 +2287,12 @@ p.post a {
         width: 60%;
     }
 
-    .tc-banner-1 {
+    .search {
+        width: 40%;
+        float: left;
+    }
+
+    .banner-w3l {
         min-height: 326px;
     }
 
@@ -2208,11 +2348,11 @@ p.post a {
 }
 
 @media screen and (max-width: 600px) {
-    .tc-banner-1 {
+    .banner-w3l {
         min-height: 300px;
     }
 
-        .tc-banner-1 h2 {
+        .banner-w3l h2 {
             width: 42%;
             font-size: 33px;
         }
@@ -2275,12 +2415,12 @@ p.post a {
 }
 
 @media screen and (max-width: 568px) {
-    .navigation {
+    .navigation, .search {
         width: 50%;
         float: left;
     }
 
-    .tc-banner-1 {
+    .banner-w3l {
         min-height: 278px;
     }
 
@@ -2323,17 +2463,22 @@ p.post a {
         float: left;
     }
 
-    .tc-banner-1 {
+    .search {
+        width: 55%;
+        float: left;
+    }
+
+    .banner-w3l {
         min-height: 278px;
     }
 
-    .tc-banner-1 {
+    .banner-w3l {
         background: url(../../images/banner.jpg) no-repeat 0px -51px;
         background-size: cover;
         min-height: 255px;
     }
 
-        .tc-banner-1 h2 {
+        .banner-w3l h2 {
             width: 45%;
             font-size: 30px;
         }
@@ -2448,17 +2593,22 @@ p.post a {
         float: left;
     }
 
-    .tc-banner-1 h3 {
+    .search {
+        width: 61%;
+        float: left;
+    }
+
+    .banner-w3l h3 {
         font-size: 21px;
         padding-top: 5%;
     }
 
-    .tc-banner-1 h2 {
+    .banner-w3l h2 {
         width: 49%;
         font-size: 26px;
     }
 
-    .tc-banner-1 {
+    .banner-w3l {
         background: url(../../images/banner.jpg) no-repeat 0px -38px;
         background-size: cover;
         min-height: 226px;
@@ -2507,13 +2657,13 @@ p.post a {
 }
 
 @media screen and (max-width: 384px) {
-    .tc-banner-1 {
+    .banner-w3l {
         background: url(../../images/banner.jpg) no-repeat 0px -18px;
         background-size: cover;
         min-height: 226px;
     }
 
-        .tc-banner-1 h3 {
+        .banner-w3l h3 {
             font-size: 19px;
             padding-top: 8%;
         }
@@ -2565,7 +2715,7 @@ p.post a {
 }
 
 @media screen and (max-width: 375px) {
-    .tc-banner-1 {
+    .banner-w3l {
         background: url(../../images/banner.jpg) no-repeat 0px -18px;
         background-size: cover;
         min-height: 221px;
@@ -2583,6 +2733,11 @@ p.post a {
 }
 
 @media screen and (max-width: 320px) {
+    .logo-agileinfo h1 {
+        text-align: left;
+        font-size: 27px;
+    }
+
     .navbar-toggle {
         padding: 7px 6px;
         margin-top: 10px
@@ -2592,11 +2747,11 @@ p.post a {
         padding: 15px 4px;
     }
 
-    .tc-banner-1 h3 {
+    .banner-w3l h3 {
         padding-top: 7%;
     }
 
-    .tc-banner-1 h2 {
+    .banner-w3l h2 {
         width: 59%;
         font-size: 23px;
         padding: 4px 0;
@@ -2606,7 +2761,7 @@ p.post a {
         margin: 18px auto;
     }
 
-    .tc-banner-1 {
+    .banner-w3l {
         background: url(../../images/banner.jpg) no-repeat 0px 0px;
         background-size: cover;
         min-height: 201px;
@@ -2700,42 +2855,3 @@ p.post a {
         padding: 30px 0;
     }
 }
-
-.tc-address span {
-    color: #E8E8E8;
-    font-weight: bold;
-    letter-spacing: 0.05em;
-    word-wrap: break-word;
-}
-
-.header-bottom-agile {
-    position: fixed;
-    width: 100%
-}
-
-.sns-icons {
-    float: right;
-}
-
-.sns-icons ul li {
-    display: inline-block;
-}
-
-    .sns-icons ul li a {
-        color: #fff;
-        font-size: 16px;
-        padding: 10px;
-        transition: 0.5s all;
-        -webkit-transition: 0.5s all;
-        -moz-transition: 0.5s all;
-        -o-transition: 0.5s all;
-        -ms-transition: 0.5s all;
-    }
-
-.bg-block-1 {
-    text-align: center;
-}
-    .bg-block-1 img {
-        height: 60vh;
-        object-fit: contain;
-    }
