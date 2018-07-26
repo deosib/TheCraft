@@ -1,0 +1,278 @@
+﻿.tc-top-container {
+    position: fixed;
+}
+
+.tc-address {
+    font-family: 'Baloo Bhai', cursive;
+    letter-spacing: 0.05em;
+    text-align: center;
+    line-height: 40px;
+    color: #E8E8E8;
+}
+
+.tc-brand {
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 35px;
+}
+
+.tc-slogan {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+    color: #fff;
+}
+
+.tc-slogan-ln1 {
+    letter-spacing: 0.03em;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.tc-slogan-ln2 {
+    margin-top: 15px;
+    font-size: 9em;
+    letter-spacing: 0.1em;
+    line-height: 1em;
+    font-family: 'Bungee', cursive;
+}
+
+.menu-ref {
+    width: 130px;
+    height: 42px;
+    margin: 30px auto;
+    text-align: center;
+    border: solid rgba(255, 255, 255, 1) 2px;
+    background-color: transparent;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+    .menu-ref a {
+        cursor: pointer !important;
+        padding: 10px 36px;
+        line-height: 40px;
+    }
+
+        .menu-ref a span {
+            transition: color 0.4s ease 0s;
+            color: #FFFFFF;
+            font-size: 22px;
+            font-weight: 600;
+            margin: auto;
+        }
+
+    .menu-ref:hover {
+        background-color: rgb(47,46,46);
+        border: solid rgba(47, 46, 46, 1) 2px;
+    }
+
+.tc-b1-img {
+    background: url('../../images/2.png') no-repeat;
+    background-size: cover;
+    width: 680px;
+    height: 650px;
+}
+
+.tc-b3-img {
+    background: url('../../images/3.png') no-repeat;
+    background-size: cover;
+    width: 680px;
+    height: 650px;
+}
+
+.tc-b5-img {
+    background: url('../../images/12A.png') no-repeat;
+    background-size: cover;
+    width: 680px;
+    height: 650px;
+}
+
+.social-icons-agileits {
+    float: right;
+    text-align: right;
+    margin-top: 8px;
+}
+
+    .social-icons-agileits ul li {
+        display: inline-block;
+        background-color: black;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        line-height: 35px;
+        text-align: center;
+    }
+
+        .social-icons-agileits ul li a {
+            color: #fff;
+            font-size: 16px;
+            padding: 10px;
+            transition: 0.5s all;
+            -webkit-transition: 0.5s all;
+            -moz-transition: 0.5s all;
+            -o-transition: 0.5s all;
+            -ms-transition: 0.5s all;
+        }
+
+.banner-btm-left-w3ls h3, .services-wthree h3, .services-wfour h3, .footer-middle-w3-agileits h3, .services-bottom h3, .subscribe h3, .sub-banner-wthree h2, .team-section h2, .sub-banner-wthree h3, .about-bottom h3 {
+    font-size: 40px;
+    color: #292929;
+    letter-spacing: 3px;
+}
+
+.services-wthree {
+    background-color: rgb(181, 232, 213);
+    text-align: center;
+}
+
+    .services-wthree .container {
+        background: url(../../images/10.png) no-repeat 0px 0px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        min-height: 768px;
+    }
+
+.services-wfour {
+    background-color: rgb(255, 191, 179);
+    text-align: center;
+}
+    .services-wfour .container {
+        background: url(../../images/11.png) no-repeat 0px 0px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        min-height: 768px;
+    }
+
+.block3-txt {
+    margin-top: 200px;
+    color: #fff;
+    font-weight: 600;
+}
+
+    .block3-txt div:nth-child(1) {
+        font-size: 30px;
+    }
+
+    .block3-txt div:nth-child(2) {
+        letter-spacing: 0.2em;
+        font-size: 100px;
+    }
+
+.services-wthree h3 {
+    color: #fff;
+}
+
+.firstblock-img {
+    background: url(../../images/1.png) no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 260px;
+    background-size: contain;
+    margin: auto;
+}
+
+.block2-txt {
+    position: absolute;
+    top: 220px;
+    left: 90px;
+    width: 320px;
+    font-weight: 600;
+}
+
+    .block2-txt .menu-ref {
+        border: solid rgba(0, 0, 0, 1) 2px;
+        background-color: #fff;
+        -moz-transition: all .2s ease-in;
+        -o-transition: all .2s ease-in;
+        -webkit-transition: all .2s ease-in;
+        transition: all .2s ease-in;
+    }
+
+        .block2-txt .menu-ref:hover {
+            background-color: #000;
+        }
+
+        .block2-txt .menu-ref a span {
+            color: #000;
+        }
+
+        .block2-txt .menu-ref:hover a span {
+            color: #fff;
+        }
+
+.block-title {
+    text-align: center;
+}
+    .block-title div:nth-child(1) {
+        font-size: 30px;
+    }
+    .block-title div:nth-child(2) {
+        font-size: 20px;
+    }
+
+.block-des {
+    margin: 50px 0;
+}
+
+.services-bottom {
+    background-color: rgb(181, 232, 213);
+}
+    .services-bottom .container {
+        background: url(../../images/12B.png) no-repeat 0px 0px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        min-height: 600px;
+    }
+        .services-bottom .container > div {
+            position: absolute;
+            background: url(../../images/12.png) no-repeat 0px 0px;
+            background-repeat: no-repeat;
+            /*background-position: 0 -50px;*/
+            background-size: contain;
+            width: 100%;
+            height: 781px;
+        }
+
+.bottom-tag {
+    height: 170px;
+    background-color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.footer-agileits-w3layouts {
+    background: #000;
+    padding: 150px 0;
+}
+
+    .footer-agileits-w3layouts .item {
+        color: #fff;
+        padding: 0 30px;
+    }
+        .footer-agileits-w3layouts .item .title {
+            font-size: 23px;
+            margin-bottom: 15px;
+        }
+        .footer-agileits-w3layouts .item .content {
+            font-size: 16px;
+        }
+
+    .footer-agileits-w3layouts .sendmail {
+        text-align: center;
+    }

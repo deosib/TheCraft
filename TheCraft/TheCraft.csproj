@@ -91,6 +91,7 @@
   <ItemGroup>
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\responsive.css" />
     <Content Include="Content\css\style.css" />
     <Content Include="Content\css\swipebox.css" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
@@ -119,6 +120,7 @@
     <Content Include="images\t1.jpg" />
     <Content Include="images\t2.jpg" />
     <Content Include="images\t3.jpg" />
+    <Content Include="images\tc-b2.jpg" />
     <Content Include="Scripts\vendors\bootstrap.js" />
     <Content Include="Scripts\vendors\controls.js" />
     <Content Include="Scripts\vendors\easing.js" />

@@ -27,79 +27,7 @@ body {
     margin: initial;
 }
 
-.tc-top-container {
-    position: fixed;
-}
 
-.tc-address {
-    font-family: 'Baloo Bhai', cursive;
-    letter-spacing: 0.05em;
-    text-align: center;
-    line-height: 40px;
-    color: #E8E8E8;
-}
-
-.tc-brand {
-    padding-top: 30px;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Dancing Script', cursive;
-}
-
-.tc-slogan {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    height: 30%;
-    width: 50%;
-    margin: -15% 0 0 -25%;
-    color: #fff;
-}
-
-.tc-slogan-ln1 {
-    letter-spacing: 0.03em;
-    font-size: 2.5em;
-    font-weight: 600;
-}
-
-.tc-slogan-ln2 {
-    margin-top: 15px;
-    font-size: 9em;
-    letter-spacing: 0.1em;
-    line-height: 1em;
-    font-family: 'Bungee', cursive;
-}
-
-.menu-ref {
-    width: 130px;
-    height: 42px;
-    margin: 30px auto;
-    text-align: center;
-    border: solid rgba(255, 255, 255, 1) 2px;
-}
-    .menu-ref a {
-        cursor: pointer !important;
-        padding: 10px 36px;
-        line-height: 40px;
-    }
-        .menu-ref a span {
-            transition: color 0.4s ease 0s;
-            color: #FFFFFF;
-            font-size: 22px;
-            font-weight: 600;
-            margin: auto;
-        }
-.menu-ref:hover {
-    background-color: #000;
-    border: none;
-    opacity: .9;
-}
-
-.tc-b1-img {
-    background: url('../../images/tc-b2.jpg') no-repeat;
-    background-size: cover;
-    min-height: 650px;
-}
 
 input[type="button"], input[type="submit"] {
     transition: 0.5s all;
@@ -161,32 +89,7 @@ img {
             color: #2F2E2E;
         }
 
-.social-icons-agileits {
-    float: right;
-    text-align: right;
-    margin-top: 8px;
-}
 
-    .social-icons-agileits ul li {
-        display: inline-block;
-        background-color: black;
-        width: 39px;
-        height: 38px;
-        border-radius: 50%;
-        line-height: 35px;
-        text-align: center;
-    }
-
-        .social-icons-agileits ul li a {
-            color: #fff;
-            font-size: 16px;
-            padding: 10px;
-            transition: 0.5s all;
-            -webkit-transition: 0.5s all;
-            -moz-transition: 0.5s all;
-            -o-transition: 0.5s all;
-            -ms-transition: 0.5s all;
-        }
 
 .navigation {
     padding: 0;
@@ -240,7 +143,7 @@ img {
 .banner-w3l {
     background: url(../../images/banner.jpg) no-repeat;
     background-size: cover;
-    min-height: 750px;
+    min-height: 708px;
     text-align: center;
 }
 
@@ -284,12 +187,6 @@ label.line {
 /*--//banner --*/
 
 /*-- banner-bottom--*/
-
-    .banner-btm-left-w3ls h3, .services-wthree h3, .footer-middle-w3-agileits h3, .services-bottom h3, .subscribe h3, .sub-banner-wthree h2, .team-section h2, .sub-banner-wthree h3, .about-bottom h3 {
-        font-size: 40px;
-        color: #292929;
-        letter-spacing: 3px;
-    }
 
 .banner-btm-left-w3ls h3 {
     margin-top: 50px;
@@ -408,17 +305,6 @@ p.w3layouts {
 /*--//banner-bottom --*/
 
 /*-- services --*/
-.services-wthree {
-    background: url(../../images/servicesbg.jpg) no-repeat 0px 0px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-    .services-wthree h3 {
-        color: #fff;
-    }
 
 .service-grids h4 {
     color: #cfcfcf;
@@ -591,9 +477,6 @@ p.stats-info {
 
 
 /*-- footer --*/
-.footer-agileits-w3layouts {
-    background: #141414;
-}
 
 .footer-left-agile, .footer-middle-w3-agileits {
     padding: 30px 0;
@@ -2668,7 +2551,7 @@ p.post a {
             padding-top: 8%;
         }
 
-    .banner-btm-w3-agile, .services-wthree, .services-bottom, .w3layouts-gal, .contact-agile, .blog-section, .team-section, .main-grid-border, .about-w3layouts {
+    .banner-btm-w3-agile, .services-wthree, .services-wfour, .services-bottom, .w3layouts-gal, .contact-agile, .blog-section, .team-section, .main-grid-border, .about-w3layouts {
         padding: 35px 0;
     }
 
@@ -2847,7 +2730,7 @@ p.post a {
         min-height: 151px;
     }
 
-    .banner-btm-w3-agile, .services-wthree, .services-bottom, .w3layouts-gal, .contact-agile, .blog-section, .team-section, .main-grid-border, .about-w3layouts {
+    .banner-btm-w3-agile, .services-wthree, .services-wfour, .services-bottom, .w3layouts-gal, .contact-agile, .blog-section, .team-section, .main-grid-border, .about-w3layouts {
         padding: 30px 0;
     }
 
