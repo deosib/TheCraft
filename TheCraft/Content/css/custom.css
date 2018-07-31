@@ -1,5 +1,6 @@
 ﻿.tc-top-container {
     position: fixed;
+    z-index: 999;
 }
 
 .tc-address {
@@ -15,7 +16,8 @@
     font-size: 30px;
     font-weight: bold;
     font-family: 'Dancing Script', cursive;
-    margin-bottom: 35px;
+    position: absolute;
+    width: 100%;
 }
 
 .tc-slogan {
@@ -146,6 +148,7 @@
     background-color: rgb(255, 191, 179);
     text-align: center;
 }
+
     .services-wfour .container {
         background: url(../../images/11.png) no-repeat 0px 0px;
         background-repeat: no-repeat;
@@ -180,7 +183,8 @@
     height: 500px;
     width: 260px;
     background-size: contain;
-    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .block2-txt {
@@ -215,9 +219,11 @@
 .block-title {
     text-align: center;
 }
+
     .block-title div:nth-child(1) {
         font-size: 30px;
     }
+
     .block-title div:nth-child(2) {
         font-size: 20px;
     }
@@ -229,6 +235,7 @@
 .services-bottom {
     background-color: rgb(181, 232, 213);
 }
+
     .services-bottom .container {
         background: url(../../images/12B.png) no-repeat 0px 0px;
         background-repeat: no-repeat;
@@ -237,6 +244,7 @@
         background-size: cover;
         min-height: 600px;
     }
+
         .services-bottom .container > div {
             position: absolute;
             background: url(../../images/12.png) no-repeat 0px 0px;
@@ -265,14 +273,31 @@
         color: #fff;
         padding: 0 30px;
     }
+
         .footer-agileits-w3layouts .item .title {
             font-size: 23px;
             margin-bottom: 15px;
         }
+
         .footer-agileits-w3layouts .item .content {
             font-size: 16px;
         }
 
     .footer-agileits-w3layouts .sendmail {
-        text-align: center;
+        text-align: left;
+    }    
+
+    .footer-agileits-w3layouts .sendmail input {
+        margin-bottom: 10px;
+        background-color: rgb(232,232,232);
+        padding: 8px;
+        width: 100%;
+        border: none;
+    }
+
+    .footer-agileits-w3layouts .sendmail button {
+        background-color: transparent;
+        width: 100%;
+        padding: 10px;
+        font-weight: 600;
     }

@@ -38,11 +38,11 @@ input[type="button"], input[type="submit"] {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+    margin-bottom: 10px;
     padding: 0;
     text-align: center;
-    font-family: 'Ceviche One', cursive;
     letter-spacing: 1px;
+    font-weight: 600;
 }
 
 p {
@@ -107,7 +107,7 @@ img {
 }
 
 .nav > li > a {
-    padding: 15px 30px;
+    padding: 15px 20px;
     font-weight: 600;
 }
 
@@ -145,6 +145,8 @@ img {
     background-size: cover;
     min-height: 708px;
     text-align: center;
+    display: table;
+    width: 100%;
 }
 
     .banner-w3l h3 {
