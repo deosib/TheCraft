@@ -4,6 +4,10 @@
 		padding: 30px;
 	}
 
+    .tc-address {
+        
+    }
+
     .social-icons-agileits {
         padding-right: 50px;
     }
@@ -30,7 +34,7 @@
 
 
 @media (max-width: 900px) {
-    .header-w3 {
+    /*.header-w3 {
         height: 9vh;
     }
     .banner-w3l {
@@ -43,5 +47,5 @@
 
     .tc-slogan-ln2 {
         font-size: 4em;
-    }
+    }*/
 }

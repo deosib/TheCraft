@@ -7,16 +7,19 @@
     <meta name="keywords" content="The CRAFT Pâtisserie" />
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Saira+Semi+Condensed|Dancing+Script|Bungee" rel="stylesheet">
-
     <link href="~/Content/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/Content/assets/owl.carousel.css" rel="stylesheet" />
+    <link href="~/Content/css/fonts/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/css/fonts/fontFace.css" rel="stylesheet" />
+    <link href="~/Content/css/fonts/languages.css" rel="stylesheet" />
+    <link href="~/Content/css/fonts/thecraft-font.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/Content/css/style.css" type="text/css" media="all" />
     <link href="~/Content/css/responsive.css" rel="stylesheet" />
     <link href="~/Content/css/custom.css" rel="stylesheet" />
-    <link href="~/Content/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
 
     <script src="~/Scripts/vendors/jquery-1.11.1.min.js"></script>
     <script src="~/Scripts/vendors/bootstrap.js"></script>
+    <script src="~/Scripts/vendors/owl.carousel.min.js"></script>
 
     <script type="text/javascript" src="~/Scripts/vendors/easing.js"></script>
     <script type="text/javascript">
@@ -32,12 +35,9 @@
 <body>
     <div class="header-w3">
         <div class="header-top-agile">
-            <div class="container">
-                <div class="tc-address">
-                    Số 39 Làng Yên Phụ
-                    Hà Nội, 10000 | 10AM-10PM
-                </div>
-                <div class="clearfix"></div>
+            <div class="tc-address font-1">
+                Số 39 Làng Yên Phụ
+                Hà Nội, 10000 | 10AM-10PM
             </div>
         </div>
         <div class="header-bottom-agile">
@@ -52,11 +52,11 @@
                         </button>
                         <div id="navbar" class="navbar-collapse navbar-right collapse hover-effect">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="~/Home/Index" data-hover="HOME">HOME</a></li>
-                                <li><a href="~/Home/Menu" data-hover="MENU">MENU</a></li>
-                                <li><a href="~/Home/WORKSHOP" data-hover="WORKSHOP">WORKSHOP</a></li>
-                                <li><a href="~/Home/Blog" data-hover="BLOG">BLOG</a></li>
-                                <li><a href="~/Home/About" data-hover="ABOUT">ABOUT</a></li>
+                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "active" : "")">@Html.ActionLink("HOME", "Index", "Home")</li>
+                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Menu" ? "active" : "")">@Html.ActionLink("MENU", "Menu", "Home")</li>
+                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Workshop" ? "active" : "")">@Html.ActionLink("WORKSHOP", "Workshop", "Home")</li>
+                                @*<li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Blog" ? "active" : "")">@Html.ActionLink("BLOG", "Blog", "Home")</li>*@
+                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "About" ? "active" : "")">@Html.ActionLink("ABOUT", "About", "Home")</li>
                             </ul>
                         </div>
                     </nav>

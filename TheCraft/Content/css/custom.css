@@ -1,23 +1,27 @@
-﻿.tc-top-container {
+﻿.header-top-agile {
+    background-color: rgba(36, 35, 35, 1);
+}
+
+.tc-top-container {
     position: fixed;
     z-index: 999;
 }
 
 .tc-address {
-    font-family: 'Baloo Bhai', cursive;
     letter-spacing: 0.05em;
     text-align: center;
-    line-height: 40px;
+    height: 55px;
+    line-height: 55px;
     color: #E8E8E8;
+    word-wrap: break-word;
 }
 
 .tc-brand {
-    padding-top: 30px;
+    padding-top: 15px;
     font-size: 30px;
-    font-weight: bold;
-    font-family: 'Dancing Script', cursive;
     position: absolute;
-    width: 100%;
+    left: 0;
+    right: 0;
 }
 
 .tc-slogan {
@@ -41,7 +45,6 @@
     font-size: 9em;
     letter-spacing: 0.1em;
     line-height: 1em;
-    font-family: 'Bungee', cursive;
 }
 
 .menu-ref {
