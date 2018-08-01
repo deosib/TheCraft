@@ -89,6 +89,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\assets\ajax-loader.gif" />
+    <Content Include="Content\assets\owl.carousel.css" />
+    <Content Include="Content\assets\owl.carousel.min.css" />
+    <Content Include="Content\assets\owl.theme.default.css" />
+    <Content Include="Content\assets\owl.theme.default.min.css" />
+    <Content Include="Content\assets\owl.theme.green.css" />
+    <Content Include="Content\assets\owl.theme.green.min.css" />
+    <Content Include="Content\assets\owl.video.play.png" />
+    <Content Include="Content\css\fonts\font-awesome.min.css" />
+    <Content Include="Content\css\fonts\fontFace.css" />
+    <Content Include="Content\css\fonts\languages.css" />
+    <Content Include="Content\css\fonts\thecraft-font.css" />
     <Content Include="Content\css\menu.css" />
     <Content Include="Content\css\about.css" />
     <Content Include="Content\css\bootstrap.css" />
@@ -97,7 +109,6 @@
     <Content Include="Content\css\responsive.css" />
     <Content Include="Content\css\style.css" />
     <Content Include="Content\css\swipebox.css" />
-    <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="images\10.png" />
     <Content Include="images\11.png" />
@@ -132,6 +143,7 @@
     <Content Include="Scripts\vendors\jquery.filterizr.js" />
     <Content Include="Scripts\vendors\jquery.swipebox.min.js" />
     <Content Include="Scripts\vendors\numscroller-1.0.js" />
+    <Content Include="Scripts\vendors\owl.carousel.min.js" />
     <Content Include="Scripts\vendors\responsiveslides.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -145,15 +157,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
-    <Content Include="Content\fonts\fontawesome-webfont.eot" />
-    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
-    <Content Include="Content\fonts\fontawesome-webfont.woff" />
-    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
-    <Content Include="Content\fonts\FontAwesome.otf" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Fonts\530dee22-e3c1-4e9f-bf62-c31d510d9656.woff" />
+    <Content Include="Fonts\50d35bbc-dfd4-48f1-af16-cf058f69421d.woff" />
+    <Content Include="Fonts\0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2" />
+    <Content Include="Fonts\242487aa-209a-4dbd-aca2-64a3c73a8946.woff2" />
+    <Content Include="Fonts\5cee8d6e-89ad-4d8c-a0ac-584d316b15ae %281%29.woff2" />
+    <Content Include="Fonts\5cee8d6e-89ad-4d8c-a0ac-584d316b15ae %282%29.woff2" />
+    <Content Include="Fonts\5cee8d6e-89ad-4d8c-a0ac-584d316b15ae.woff2" />
+    <Content Include="Fonts\aee74cb3-c913-4b54-9722-6001c92325f2.woff2" />
+    <Content Include="Fonts\bc176270-17fa-4c78-a343-9fe52824e501.woff" />
+    <Content Include="Fonts\fontawesome-webfont.woff2" />
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
