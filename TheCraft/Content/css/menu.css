@@ -18,3 +18,49 @@
     width: 232px;
     height: 232px;
 }
+
+.menu-content {
+	background-color: rgba(247, 247, 247, 1);
+}
+
+	.menu-content .title {
+		text-align: center;
+	}
+
+		.menu-content .title > div:nth-child(1) {
+			font-size: 40px;
+			margin-bottom: 20px;
+			font-weight: 600;
+		}
+
+	.menu-content .txt-decor, .menu-content .txt-decor-item {
+		background-color: rgb(0, 0, 0);
+		width: 100px;
+		height: 2px;
+		margin: 0 auto 50px auto;
+	}
+
+	.menu-content .txt-decor-item {
+		width: 200px;
+		height: 2px;
+		margin: 0 auto 15px auto;
+	}
+
+	.menu-content .name {
+		line-height: 1.5;
+		margin: 0 auto;
+		margin-bottom: 18px;
+		color: rgb(93, 57, 81);
+		font-size: 22px;
+		font-weight: 600;
+	}
+
+	.menu-content .item-des {
+		font-size: 15px;
+	}
+
+	.menu-content .price {
+		font-weight: 600;
+		font-size: 22px;
+		margin-top: 30px;
+	}

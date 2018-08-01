@@ -22,13 +22,6 @@ body {
             text-decoration: none;
         }
 
-.container {
-    padding: initial;
-    margin: initial;
-}
-
-
-
 input[type="button"], input[type="submit"] {
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
