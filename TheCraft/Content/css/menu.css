@@ -1,0 +1,20 @@
+﻿.banner-menu {
+    background-color: rgba(181, 232, 213, 1);
+    min-height: 450px;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+.tc-slogan-menu {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+}
+    .tc-slogan-menu .tc-slogan-ln2 {
+        font-size: 6em;
+    }
+
+.menu-item img {
+    width: 232px;
+    height: 232px;
+}

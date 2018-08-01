@@ -89,6 +89,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\about.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\custom.css" />
     <Content Include="Content\css\font-awesome.min.css" />
