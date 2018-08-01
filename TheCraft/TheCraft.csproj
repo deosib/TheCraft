@@ -89,6 +89,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\menu.css" />
     <Content Include="Content\css\about.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\custom.css" />
@@ -114,6 +115,7 @@
     <Content Include="images\g5.jpg" />
     <Content Include="images\g6.jpg" />
     <Content Include="images\icons.png" />
+    <Content Include="images\Menu\menu-item.png" />
     <Content Include="images\sb1.jpeg" />
     <Content Include="images\sb2.jpg" />
     <Content Include="images\sb3.jpg" />
