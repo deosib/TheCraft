@@ -20,30 +20,19 @@
     <script src="~/Scripts/vendors/jquery-1.11.1.min.js"></script>
     <script src="~/Scripts/vendors/bootstrap.js"></script>
     <script src="~/Scripts/vendors/owl.carousel.min.js"></script>
-
-    <script type="text/javascript" src="~/Scripts/vendors/easing.js"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            $(".scroll").click(function (event) {
-                event.preventDefault();
-                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
-            });
-        });
-    </script>
-    <script type="text/javascript" src="~/Scripts/vendors/numscroller-1.0.js"></script>
 </head>
 <body>
     <div class="header-w3">
         <div class="header-top-agile">
-            <div class="tc-address font-1">
+            <div class="tc-address font-8">
                 Số 39 Làng Yên Phụ
                 Hà Nội, 10000 | 10AM-10PM
             </div>
         </div>
         <div class="header-bottom-agile">
-            <div class="container tc-top-container">
-                <div class="col-md-9 navigation">
-                    <nav class="navbar navbar-default cl-effect-16" id="cl-effect-16">
+            <div class="tc-top-container">
+                <div class="navigation">
+                    <nav class="navbar navbar-default">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
@@ -60,25 +49,23 @@
                             </ul>
                         </div>
                     </nav>
+                    <div class="social-icons-agileits">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/craftedinhanoi/?hc_ref=ARTq93jtWi1wRv7FgRVXkJJbgOvHARoJOAs4z1RRFv5cn-W_f2goXIJKvNDaGLWNym0"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-md-3 search sb-icon-search social-icons-agileits">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a target="_blank" href="https://www.facebook.com/craftedinhanoi/?hc_ref=ARTq93jtWi1wRv7FgRVXkJJbgOvHARoJOAs4z1RRFv5cn-W_f2goXIJKvNDaGLWNym0"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-                <div class="clearfix"></div>
             </div>
         </div>
     </div>
     @RenderBody()
-    <div class="footer-agileits-w3layouts" id="footer">
+    <div class="footer-agileits-w3layouts font-7" id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
                     <div class="row">
-                        <div class="col-md-3"></div>
-                        <div class="col-md-3 item address">
+                        <div class="col-md-4 item address">
                             <div class="title">ADDRESS</div>
                             <div class="content">
                                 500 Terry Francois St.
@@ -86,14 +73,14 @@
                                 CA 94158
                             </div>
                         </div>
-                        <div class="col-md-3 item contact">
+                        <div class="col-md-4 item contact">
                             <div class="title">CONTACT</div>
                             <div class="content">
                                 info@mysite.com
                                 Tel: 123-456-7890
                             </div>
                         </div>
-                        <div class="col-md-3 item hours">
+                        <div class="col-md-4 item hours">
                             <div class="title">HOURS</div>
                             <div class="content">
                                 OPEN DAILY

@@ -83,12 +83,6 @@ img {
             color: #2F2E2E;
         }
 
-
-
-.navigation {
-    padding: 0;
-}
-
 .navbar-default {
     background-color: transparent;
     border: none;
@@ -136,21 +130,9 @@ img {
 
 /*--banner --*/
 .banner-w3l {
-    background: url(../../images/banner.jpg) no-repeat;
-    background-size: cover;
-    min-height: 708px;
+    background-color: rgba(249, 219, 121, 1);
     text-align: center;
-    display: table;
-    width: 100%;
 }
-
-    .banner-w3l h3 {
-        text-align: center;
-        padding-top: 15%;
-        color: #eee;
-        letter-spacing: 2px;
-        font-size: 23px;
-    }
 
 label.line {
     height: 1.5px;
@@ -158,16 +140,6 @@ label.line {
     width: 4%;
     margin: 30px auto;
     display: block;
-}
-
-.banner-w3l h2 {
-    border: 2px solid #fff;
-    width: 25%;
-    font-size: 40px;
-    padding: 8px 0;
-    margin: 0 auto;
-    color: #fff;
-    letter-spacing: 4px;
 }
 
 .arrow {
@@ -1586,12 +1558,6 @@ p.post a {
 }
 
 @media screen and (max-width: 1080px) {
-    .banner-w3l {
-        background: url(../../images/banner.jpg) no-repeat 0px -135px;
-        background-size: cover;
-        min-height: 510px;
-    }
-
     .arrow {
         padding-top: 13%;
     }
@@ -1659,22 +1625,8 @@ p.post a {
 }
 
 @media screen and (max-width: 991px) {
-    .navigation {
-        width: 70%;
-        float: left;
-    }
-
     .nav > li > a {
         padding: 15px 24px;
-    }
-
-    .search {
-        width: 30%;
-        float: left;
-    }
-
-    .banner-w3l h2 {
-        width: 28%;
     }
 
     .banner-btm-left-w3ls h3, .services-wthree h3, .footer-middle-w3-agileits h3, .services-bottom h3, .subscribe h3, .sub-banner-wthree h2, .team-section h2, .sub-banner-wthree h3, .about-bottom h3 {
@@ -1824,14 +1776,6 @@ p.post a {
 }
 
 @media screen and (max-width: 900px) {
-    .banner-w3l {
-        min-height: 452px;
-    }
-
-        .banner-w3l h2 {
-            width: 32%;
-        }
-
     .about-left-w3-agileits {
         background: url(../../images/about.jpg) no-repeat 0px 0px;
         background-size: cover;
@@ -1846,15 +1790,6 @@ p.post a {
 }
 
 @media screen and (max-width: 800px) {
-    .banner-w3l h3 {
-        text-align: center;
-        padding-top: 11%;
-    }
-
-    .banner-w3l {
-        min-height: 387px;
-    }
-
     .about-left-w3-agileits {
         background: url(../../images/about.jpg) no-repeat 0px 0px;
         background-size: cover;
@@ -1910,18 +1845,6 @@ p.post a {
 }
 
 @media screen and (max-width: 768px) {
-    .sb-search-input {
-        font-size: 13px;
-    }
-
-    .banner-w3l {
-        min-height: 365px;
-    }
-
-        .banner-w3l h2 {
-            width: 36%;
-        }
-
     .arrow {
         padding-top: 11%;
     }
@@ -1952,16 +1875,6 @@ p.post a {
 }
 
 @media screen and (max-width: 736px) {
-    .navigation {
-        padding-left: 15px;
-        width: 65%;
-    }
-
-    .search {
-        width: 35%;
-        float: left;
-    }
-
     .navbar-toggle {
         float: none;
     }
@@ -1991,18 +1904,6 @@ p.post a {
     .navbar-nav {
         margin: 0;
     }
-
-    .banner-w3l {
-        min-height: 344px;
-    }
-
-        .banner-w3l h3 {
-            padding-top: 10%;
-        }
-
-        .banner-w3l h2 {
-            font-size: 37px;
-        }
 
     .news-2, .news-3 {
         width: 100%;
@@ -2095,11 +1996,6 @@ p.post a {
 }
 
 @media screen and (max-width: 667px) {
-    .banner-w3l {
-        background: url(../../images/banner.jpg) no-repeat 0px -89px;
-        background-size: cover;
-    }
-
     .banner-btm-left-w3ls, .banner-btm-right-w3ls {
         width: 100%;
         padding: 0 15px;
@@ -2163,19 +2059,6 @@ p.post a {
 }
 
 @media screen and (max-width: 640px) {
-    .navigation {
-        width: 60%;
-    }
-
-    .search {
-        width: 40%;
-        float: left;
-    }
-
-    .banner-w3l {
-        min-height: 326px;
-    }
-
     .service-grids {
         padding: 0 10px;
     }
@@ -2228,15 +2111,6 @@ p.post a {
 }
 
 @media screen and (max-width: 600px) {
-    .banner-w3l {
-        min-height: 300px;
-    }
-
-        .banner-w3l h2 {
-            width: 42%;
-            font-size: 33px;
-        }
-
     .arrow {
         padding-top: 9%;
     }
@@ -2295,15 +2169,6 @@ p.post a {
 }
 
 @media screen and (max-width: 568px) {
-    .navigation, .search {
-        width: 50%;
-        float: left;
-    }
-
-    .banner-w3l {
-        min-height: 278px;
-    }
-
     label.line {
         height: 2px;
         width: 9%;
@@ -2338,31 +2203,6 @@ p.post a {
 }
 
 @media screen and (max-width: 480px) {
-    .navigation {
-        width: 45%;
-        float: left;
-    }
-
-    .search {
-        width: 55%;
-        float: left;
-    }
-
-    .banner-w3l {
-        min-height: 278px;
-    }
-
-    .banner-w3l {
-        background: url(../../images/banner.jpg) no-repeat 0px -51px;
-        background-size: cover;
-        min-height: 255px;
-    }
-
-        .banner-w3l h2 {
-            width: 45%;
-            font-size: 30px;
-        }
-
     .service-grids {
         width: 100%;
         float: left;
@@ -2468,32 +2308,6 @@ p.post a {
         overflow-y: inherit;
     }
 
-    .navigation {
-        width: 39%;
-        float: left;
-    }
-
-    .search {
-        width: 61%;
-        float: left;
-    }
-
-    .banner-w3l h3 {
-        font-size: 21px;
-        padding-top: 5%;
-    }
-
-    .banner-w3l h2 {
-        width: 49%;
-        font-size: 26px;
-    }
-
-    .banner-w3l {
-        background: url(../../images/banner.jpg) no-repeat 0px -38px;
-        background-size: cover;
-        min-height: 226px;
-    }
-
     .banner-btm-left-w3ls h3, .services-wthree h3, .footer-middle-w3-agileits h3, .services-bottom h3, .subscribe h3, .sub-banner-wthree h2, .team-section h2, .sub-banner-wthree h3, .about-bottom h3 {
         font-size: 30px;
     }
@@ -2537,17 +2351,6 @@ p.post a {
 }
 
 @media screen and (max-width: 384px) {
-    .banner-w3l {
-        background: url(../../images/banner.jpg) no-repeat 0px -18px;
-        background-size: cover;
-        min-height: 226px;
-    }
-
-        .banner-w3l h3 {
-            font-size: 19px;
-            padding-top: 8%;
-        }
-
     .banner-btm-w3-agile, .services-wthree, .services-wfour, .services-bottom, .w3layouts-gal, .contact-agile, .blog-section, .team-section, .main-grid-border, .about-w3layouts {
         padding: 35px 0;
     }
@@ -2595,12 +2398,6 @@ p.post a {
 }
 
 @media screen and (max-width: 375px) {
-    .banner-w3l {
-        background: url(../../images/banner.jpg) no-repeat 0px -18px;
-        background-size: cover;
-        min-height: 221px;
-    }
-
     .banner-btm-left-w3ls h3, .services-wthree h3, .footer-middle-w3-agileits h3, .services-bottom h3, .subscribe h3, .sub-banner-wthree h2, .team-section h2, .sub-banner-wthree h3, .about-bottom h3 {
         font-size: 27px;
     }
@@ -2627,24 +2424,8 @@ p.post a {
         padding: 15px 4px;
     }
 
-    .banner-w3l h3 {
-        padding-top: 7%;
-    }
-
-    .banner-w3l h2 {
-        width: 59%;
-        font-size: 23px;
-        padding: 4px 0;
-    }
-
     label.line {
         margin: 18px auto;
-    }
-
-    .banner-w3l {
-        background: url(../../images/banner.jpg) no-repeat 0px 0px;
-        background-size: cover;
-        min-height: 201px;
     }
 
     .stats-grid {

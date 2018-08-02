@@ -7,14 +7,6 @@
     .tc-address {
         
     }
-
-    .social-icons-agileits {
-        padding-right: 50px;
-    }
-
-    .tc-top-container {
-        top: 85px;
-    }
 }
 
 @media (min-width: 992px) {
@@ -24,7 +16,9 @@
 }
 
 @media (min-width: 768px) {
-
+	.navbar-nav {
+		float: initial;
+	}
 }
 
 @media (min-width: 576px) {
@@ -34,18 +28,5 @@
 
 
 @media (max-width: 900px) {
-    /*.header-w3 {
-        height: 9vh;
-    }
-    .banner-w3l {
-        height: 91vh;
-    }
-
-    .tc-slogan {
-        top: 55%;
-    }
-
-    .tc-slogan-ln2 {
-        font-size: 4em;
-    }*/
+    
 }

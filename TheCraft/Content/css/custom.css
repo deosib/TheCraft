@@ -3,8 +3,9 @@
 }
 
 .tc-top-container {
-    position: fixed;
-    z-index: 999;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
 }
 
 .tc-address {
@@ -101,9 +102,9 @@
 }
 
 .social-icons-agileits {
-    float: right;
-    text-align: right;
-    margin-top: 8px;
+	position: absolute;
+	top: 10px;
+	right: 20px;
 }
 
     .social-icons-agileits ul li {
@@ -279,12 +280,13 @@
 
         .footer-agileits-w3layouts .item .title {
             font-size: 23px;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
 
-        .footer-agileits-w3layouts .item .content {
-            font-size: 16px;
-        }
+		.footer-agileits-w3layouts .item .content {
+			font-size: 16px;
+			margin-bottom: 20px;
+		}
 
     .footer-agileits-w3layouts .sendmail {
         text-align: left;
