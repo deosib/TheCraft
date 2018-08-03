@@ -1,4 +1,10 @@
-﻿.header-top-agile {
+﻿.banner-w3l {
+    background-color: rgba(249, 219, 121, 1);
+    text-align: center;
+    height: 100vh;
+}
+
+.header-top-agile {
     background-color: rgba(36, 35, 35, 1);
 }
 
@@ -26,12 +32,11 @@
 }
 
 .tc-slogan {
+    margin: 0;
     position: absolute;
     top: 70%;
     left: 50%;
-    height: 30%;
-    width: 50%;
-    margin: -15% 0 0 -25%;
+    transform: translate(-50%, -50%);
     color: #fff;
 }
 
@@ -63,8 +68,7 @@
 
     .menu-ref a {
         cursor: pointer !important;
-        padding: 10px 36px;
-        line-height: 40px;
+        line-height: 38px;
     }
 
         .menu-ref a span {
@@ -181,14 +185,16 @@
     color: #fff;
 }
 
-.firstblock-img {
-    background: url(../../images/1.png) no-repeat;
-    background-position: center;
-    height: 500px;
-    width: 260px;
-    background-size: contain;
-    display: table-cell;
-    vertical-align: middle;
+.index-img1 {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.first-img {
+
 }
 
 .block2-txt {
