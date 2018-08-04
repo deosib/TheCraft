@@ -1,4 +1,12 @@
-﻿.banner-w3l {
+﻿.navbar-toggle .icon-bar {
+    height: 3px;
+}
+
+.navbar-collapse {
+    border: 0;
+}
+
+.banner-w3l {
     background-color: rgba(249, 219, 121, 1);
     text-align: center;
     height: 100vh;
@@ -9,9 +17,9 @@
 }
 
 .tc-top-container {
-	position: fixed;
-	width: 100%;
-	z-index: 999;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 .tc-address {
@@ -24,7 +32,7 @@
 }
 
 .tc-brand {
-    padding-top: 15px;
+    padding: 5px 0;
     font-size: 30px;
     position: absolute;
     left: 0;
@@ -43,7 +51,6 @@
 .tc-slogan-ln1 {
     letter-spacing: 0.03em;
     font-size: 2.5em;
-    font-weight: 600;
 }
 
 .tc-slogan-ln2 {
@@ -64,18 +71,18 @@
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
+    line-height: 42px;
 }
 
     .menu-ref a {
         cursor: pointer !important;
-        line-height: 38px;
+        font: normal normal normal 24px/1.4em dinneuzeitgroteskltw01-_812426,sans-serif;
     }
 
         .menu-ref a span {
             transition: color 0.4s ease 0s;
             color: #FFFFFF;
             font-size: 22px;
-            font-weight: 600;
             margin: auto;
         }
 
@@ -106,9 +113,9 @@
 }
 
 .social-icons-agileits {
-	position: absolute;
-	top: 10px;
-	right: 20px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
 }
 
     .social-icons-agileits ul li {
@@ -193,17 +200,23 @@
     transform: translate(-50%, -50%);
 }
 
-.first-img {
-
-}
-
 .block2-txt {
-    position: absolute;
-    top: 220px;
-    left: 90px;
-    width: 320px;
     font-weight: 600;
+    width: 320px;
+    height: 450px;
+    text-align: center;
+    display: table;
 }
+
+.idx2 .block2-txt {
+    margin: auto;
+    margin-right: 0;
+}
+
+    .block2-txt > div {
+        display: table-cell;
+        vertical-align: middle;
+    }
 
     .block2-txt .menu-ref {
         border: solid rgba(0, 0, 0, 1) 2px;
@@ -231,15 +244,19 @@
 }
 
     .block-title div:nth-child(1) {
-        font-size: 30px;
+        font-size: 40px;
+        letter-spacing: 0.05em;
     }
 
     .block-title div:nth-child(2) {
-        font-size: 20px;
+        font-size: 26px;
     }
 
 .block-des {
     margin: 50px 0;
+    letter-spacing: 0.01em;
+    line-height: 1.6em;
+    font-size: 18px;
 }
 
 .services-bottom {
@@ -266,12 +283,11 @@
         }
 
 .bottom-tag {
-    height: 170px;
+    height: 150px;
     background-color: #fff;
     font-size: 40px;
     font-weight: 600;
     text-align: center;
-    padding-top: 60px;
 }
 
 .footer-agileits-w3layouts {
@@ -289,26 +305,79 @@
             margin-bottom: 10px;
         }
 
-		.footer-agileits-w3layouts .item .content {
-			font-size: 16px;
-			margin-bottom: 20px;
-		}
+        .footer-agileits-w3layouts .item .content {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
 
     .footer-agileits-w3layouts .sendmail {
         text-align: left;
-    }    
-
-    .footer-agileits-w3layouts .sendmail input {
-        margin-bottom: 10px;
-        background-color: rgb(232,232,232);
-        padding: 8px;
-        width: 100%;
-        border: none;
     }
 
-    .footer-agileits-w3layouts .sendmail button {
-        background-color: transparent;
-        width: 100%;
-        padding: 10px;
-        font-weight: 600;
+        .footer-agileits-w3layouts .sendmail input {
+            margin-bottom: 10px;
+            background-color: rgb(232,232,232);
+            padding: 8px;
+            width: 100%;
+            border: none;
+        }
+
+        .footer-agileits-w3layouts .sendmail button {
+            background-color: transparent;
+            width: 100%;
+            padding: 10px;
+            font-weight: 600;
+        }
+
+.twoside {
+    background-image: url('../../images/2.png');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
+
+.idx1 {
+    background-position: right center;
+}
+
+.idx2 {
+    background-position: left center;
+}
+
+.bg-img {
+    background: url(../../images/12B.png) no-repeat 0px 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.bottom-img {
+    background-image: url('../../images/12.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.owl-dots {
+    display:none;
+}
+
+.banner-about, .banner-workshop {
+    background-color: rgba(195, 169, 212, 1);
+    height: 50vh;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+
+.tc-slogan-about {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+}
+
+    .tc-slogan-about .tc-slogan-ln2 {
+        font-size: 3em;
+        letter-spacing: 0.01em;
     }

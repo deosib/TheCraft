@@ -16,10 +16,13 @@
     <link rel="stylesheet" href="~/Content/css/style.css" type="text/css" media="all" />
     <link href="~/Content/css/responsive.css" rel="stylesheet" />
     <link href="~/Content/css/custom.css" rel="stylesheet" />
+    <link href="~/Content/css/effects.css" rel="stylesheet" />
 
     <script src="~/Scripts/vendors/jquery-1.11.1.min.js"></script>
     <script src="~/Scripts/vendors/bootstrap.js"></script>
     <script src="~/Scripts/vendors/owl.carousel.min.js"></script>
+
+    <script src="~/Scripts/app/app.js"></script>
 </head>
 <body>
     <div class="header-w3">
@@ -110,3 +113,8 @@
     </div>
 </body>
 </html>
+<script>
+    $(document).ready(function () {
+        Global.Init();
+    });
+</script>

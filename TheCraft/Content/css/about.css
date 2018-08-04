@@ -1,22 +1,7 @@
-﻿.banner-about {
-    background-color: rgba(195, 169, 212, 1);
-    min-height: 450px;
-    text-align: center;
+﻿.about-block {
     display: table;
     width: 100%;
-}
-.tc-slogan-about {
-    display: table-cell;
-    vertical-align: middle;
-    color: #fff;
-}
-    .tc-slogan-about .tc-slogan-ln2 {
-        font-size: 6em;
-    }
-.about-block {
-    display: table;
-    width: 100%;
-    padding: 50px 350px 40px 350px;
+    padding: 50px;
 }
 
     .about-block .description {        
@@ -30,8 +15,6 @@
 
 .description .sub-title {
     font-size: 25px;
-    font-weight: bold;
-    font-family: 'Dancing Script', cursive;
     margin-bottom: 45px;
 }
 
@@ -41,5 +24,16 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    min-height: 400px;
+    min-height: 500px;
+}
+
+.about-tit {
+    font-size: 38px;
+}
+
+.about-describe {
+    line-height: 1.6em;
+    letter-spacing: 0.01em;
+    max-width: 500px;
+    margin: auto;
 }
