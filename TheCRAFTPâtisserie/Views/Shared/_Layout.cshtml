@@ -1,6 +1,33 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TheCRAFTPâtisserie</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="The CRAFT Pâtisserie" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+    <link href="~/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="~/css/fonts/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/css/fonts/fontFace.css" rel="stylesheet" />
+    <link href="~/css/fonts/languages.css" rel="stylesheet" />
+    <link href="~/css/fonts/thecraft-font.css" rel="stylesheet" />
+    <link href="~/css/style.css" type="text/css" media="all" rel="stylesheet" />
+    <link href="~/css/responsive.css" rel="stylesheet" />
+    <link href="~/css/custom.css" rel="stylesheet" />
+    <link href="~/css/effects.css" rel="stylesheet" />
+
+    <script src="~/lib/jquery-1.11.1.min.js"></script>
+    <script src="~/lib/bootstrap.js"></script>
+    <script src="~/lib/owl.carousel.min.js"></script>
+
+    <script src="~/js/app.js"></script>
+</head>
+@*<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - TheCRAFTPâtisserie</title>
@@ -15,57 +42,98 @@
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
-</head>
+</head>*@
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">TheCRAFTPâtisserie</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
-                </ul>
+    <div class="header-w3">
+        <div class="header-top-agile">
+            <div class="tc-address font-8">
+                Số 39 Làng Yên Phụ
+                Hà Nội, 10000 | 10AM-10PM
             </div>
         </div>
-    </nav>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2018 - TheCRAFTPâtisserie</p>
-        </footer>
+        <div class="header-bottom-agile">
+            <div class="tc-top-container">
+                <div class="navigation">
+                    <nav class="navbar navbar-default">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div id="navbar" class="navbar-collapse navbar-right collapse hover-effect">
+                            <ul class="nav navbar-nav">
+                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "active" : "")">@Html.ActionLink("HOME", "Index", "Home")</li>
+                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Menu" ? "active" : "")">@Html.ActionLink("MENU", "Menu", "Home")</li>
+                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Workshop" ? "active" : "")">@Html.ActionLink("WORKSHOP", "Workshop", "Home")</li>
+                                @*<li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Blog" ? "active" : "")">@Html.ActionLink("BLOG", "Blog", "Home")</li>*@
+                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "About" ? "active" : "")">@Html.ActionLink("ABOUT", "About", "Home")</li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="social-icons-agileits">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/craftedinhanoi/?hc_ref=ARTq93jtWi1wRv7FgRVXkJJbgOvHARoJOAs4z1RRFv5cn-W_f2goXIJKvNDaGLWNym0"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <environment include="Development">
-        <script src="~/lib/jquery/dist/jquery.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>
-    </environment>
-    <environment exclude="Development">
-        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
-                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
-                asp-fallback-test="window.jQuery"
-                crossorigin="anonymous"
-                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
-        </script>
-        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
-                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
-                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
-                crossorigin="anonymous"
-                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
-        </script>
-        <script src="~/js/site.min.js" asp-append-version="true"></script>
-    </environment>
-
-    @RenderSection("Scripts", required: false)
+    @RenderBody()
+    <div class="footer-agileits-w3layouts font-7" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-4 item address">
+                            <div class="title">ADDRESS</div>
+                            <div class="content">
+                                500 Terry Francois St.
+                                San Francisco,
+                                CA 94158
+                            </div>
+                        </div>
+                        <div class="col-md-4 item contact">
+                            <div class="title">CONTACT</div>
+                            <div class="content">
+                                info@mysite.com
+                                Tel: 123-456-7890
+                            </div>
+                        </div>
+                        <div class="col-md-4 item hours">
+                            <div class="title">HOURS</div>
+                            <div class="content">
+                                OPEN DAILY
+                                10AM-8PM
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <div class="col-md-10 item sendmail">
+                            <div class="title">MAILING LIST</div>
+                            <div class="content">
+                                <div>
+                                    <input placeholder="Email Address" />
+                                </div>
+                                <div>
+                                    <button>SUBSCRIBE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
 </body>
 </html>
+<script>
+    $(document).ready(function () {
+        Global.Init();
+    });
+</script>

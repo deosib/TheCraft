@@ -1,0 +1,39 @@
+﻿.about-block {
+    display: table;
+    width: 100%;
+    padding: 50px;
+}
+
+    .about-block .description {        
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+.description > div {
+    text-align: center;
+}
+
+.description .sub-title {
+    font-size: 25px;
+    margin-bottom: 45px;
+}
+
+.about-img {
+    background: url(../../images/3.png) no-repeat 0px 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.about-tit {
+    font-size: 38px;
+}
+
+.about-describe {
+    line-height: 1.6em;
+    letter-spacing: 0.01em;
+    max-width: 500px;
+    margin: auto;
+}

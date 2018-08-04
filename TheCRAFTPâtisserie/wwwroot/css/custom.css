@@ -1,0 +1,383 @@
+﻿.navbar-toggle .icon-bar {
+    height: 3px;
+}
+
+.navbar-collapse {
+    border: 0;
+}
+
+.banner-w3l {
+    background-color: rgba(249, 219, 121, 1);
+    text-align: center;
+    height: 100vh;
+}
+
+.header-top-agile {
+    background-color: rgba(36, 35, 35, 1);
+}
+
+.tc-top-container {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.tc-address {
+    letter-spacing: 0.05em;
+    text-align: center;
+    height: 55px;
+    line-height: 55px;
+    color: #E8E8E8;
+    word-wrap: break-word;
+}
+
+.tc-brand {
+    padding: 5px 0;
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.tc-slogan {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.tc-slogan-ln1 {
+    letter-spacing: 0.03em;
+    font-size: 2.5em;
+}
+
+.tc-slogan-ln2 {
+    margin-top: 15px;
+    font-size: 9em;
+    letter-spacing: 0.1em;
+    line-height: 1em;
+}
+
+.menu-ref {
+    width: 130px;
+    height: 42px;
+    margin: 30px auto;
+    text-align: center;
+    border: solid rgba(255, 255, 255, 1) 2px;
+    background-color: transparent;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    line-height: 42px;
+}
+
+    .menu-ref a {
+        cursor: pointer !important;
+        font: normal normal normal 24px/1.4em dinneuzeitgroteskltw01-_812426,sans-serif;
+    }
+
+        .menu-ref a span {
+            transition: color 0.4s ease 0s;
+            color: #FFFFFF;
+            font-size: 22px;
+            margin: auto;
+        }
+
+    .menu-ref:hover {
+        background-color: rgb(47,46,46);
+        border: solid rgba(47, 46, 46, 1) 2px;
+    }
+
+.tc-b1-img {
+    background: url('../../images/2.png') no-repeat;
+    background-size: cover;
+    width: 680px;
+    height: 650px;
+}
+
+.tc-b3-img {
+    background: url('../../images/3.png') no-repeat;
+    background-size: cover;
+    width: 680px;
+    height: 650px;
+}
+
+.tc-b5-img {
+    background: url('../../images/12A.png') no-repeat;
+    background-size: cover;
+    width: 680px;
+    height: 650px;
+}
+
+.social-icons-agileits {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+    .social-icons-agileits ul li {
+        display: inline-block;
+        background-color: black;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        line-height: 35px;
+        text-align: center;
+    }
+
+        .social-icons-agileits ul li a {
+            color: #fff;
+            font-size: 16px;
+            padding: 10px;
+            transition: 0.5s all;
+            -webkit-transition: 0.5s all;
+            -moz-transition: 0.5s all;
+            -o-transition: 0.5s all;
+            -ms-transition: 0.5s all;
+        }
+
+.banner-btm-left-w3ls h3, .services-wthree h3, .services-wfour h3, .footer-middle-w3-agileits h3, .services-bottom h3, .subscribe h3, .sub-banner-wthree h2, .team-section h2, .sub-banner-wthree h3, .about-bottom h3 {
+    font-size: 40px;
+    color: #292929;
+    letter-spacing: 3px;
+}
+
+.services-wthree {
+    background-color: rgb(181, 232, 213);
+    text-align: center;
+}
+
+    .services-wthree .container {
+        background: url(../../images/10.png) no-repeat 0px 0px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        min-height: 768px;
+    }
+
+.services-wfour {
+    background-color: rgb(255, 191, 179);
+    text-align: center;
+}
+
+    .services-wfour .container {
+        background: url(../../images/11.png) no-repeat 0px 0px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        min-height: 768px;
+    }
+
+.block3-txt {
+    margin-top: 200px;
+    color: #fff;
+    font-weight: 600;
+}
+
+    .block3-txt div:nth-child(1) {
+        font-size: 30px;
+    }
+
+    .block3-txt div:nth-child(2) {
+        letter-spacing: 0.2em;
+        font-size: 100px;
+    }
+
+.services-wthree h3 {
+    color: #fff;
+}
+
+.index-img1 {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.block2-txt {
+    font-weight: 600;
+    width: 320px;
+    height: 450px;
+    text-align: center;
+    display: table;
+}
+
+.idx2 .block2-txt {
+    margin: auto;
+    margin-right: 0;
+}
+
+    .block2-txt > div {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .block2-txt .menu-ref {
+        border: solid rgba(0, 0, 0, 1) 2px;
+        background-color: #fff;
+        -moz-transition: all .2s ease-in;
+        -o-transition: all .2s ease-in;
+        -webkit-transition: all .2s ease-in;
+        transition: all .2s ease-in;
+    }
+
+        .block2-txt .menu-ref:hover {
+            background-color: #000;
+        }
+
+        .block2-txt .menu-ref a span {
+            color: #000;
+        }
+
+        .block2-txt .menu-ref:hover a span {
+            color: #fff;
+        }
+
+.block-title {
+    text-align: center;
+}
+
+    .block-title div:nth-child(1) {
+        font-size: 40px;
+        letter-spacing: 0.05em;
+    }
+
+    .block-title div:nth-child(2) {
+        font-size: 26px;
+    }
+
+.block-des {
+    margin: 50px 0;
+    letter-spacing: 0.01em;
+    line-height: 1.6em;
+    font-size: 18px;
+}
+
+.services-bottom {
+    background-color: rgb(181, 232, 213);
+}
+
+    .services-bottom .container {
+        background: url(../../images/12B.png) no-repeat 0px 0px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        min-height: 600px;
+    }
+
+        .services-bottom .container > div {
+            position: absolute;
+            background: url(../../images/12.png) no-repeat 0px 0px;
+            background-repeat: no-repeat;
+            /*background-position: 0 -50px;*/
+            background-size: contain;
+            width: 100%;
+            height: 781px;
+        }
+
+.bottom-tag {
+    height: 150px;
+    background-color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer-agileits-w3layouts {
+    background: #000;
+    padding: 150px 0;
+}
+
+    .footer-agileits-w3layouts .item {
+        color: #fff;
+        padding: 0 30px;
+    }
+
+        .footer-agileits-w3layouts .item .title {
+            font-size: 23px;
+            margin-bottom: 10px;
+        }
+
+        .footer-agileits-w3layouts .item .content {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+    .footer-agileits-w3layouts .sendmail {
+        text-align: left;
+    }
+
+        .footer-agileits-w3layouts .sendmail input {
+            margin-bottom: 10px;
+            background-color: rgb(232,232,232);
+            padding: 8px;
+            width: 100%;
+            border: none;
+        }
+
+        .footer-agileits-w3layouts .sendmail button {
+            background-color: transparent;
+            width: 100%;
+            padding: 10px;
+            font-weight: 600;
+        }
+
+.twoside {
+    background-image: url('../../images/2.png');
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
+
+.idx1 {
+    background-position: right center;
+}
+
+.idx2 {
+    background-position: left center;
+}
+
+.bg-img {
+    background: url(../../images/12B.png) no-repeat 0px 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.bottom-img {
+    background-image: url('../../images/12.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.owl-dots {
+    display:none;
+}
+
+.banner-about, .banner-workshop {
+    background-color: rgba(195, 169, 212, 1);
+    height: 50vh;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+
+.tc-slogan-about {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+}
+
+    .tc-slogan-about .tc-slogan-ln2 {
+        font-size: 3em;
+        letter-spacing: 0.01em;
+    }
