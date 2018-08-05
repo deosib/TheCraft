@@ -1,0 +1,73 @@
+﻿<link href="~/css/workshop.css" rel="stylesheet" />
+<div class="grid-ws"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 course-img">
+            <img src="~/images/Menu/banh1.jpeg" />
+        </div>
+        <div class="col-md-6 course-info">
+            <div class="row course-title">
+                <div class="c-title col-md-8 font-5">TARTE K - FRAMBOISIER À LA FLEUR DE SUREAU</div>
+                <div class="c-price col-md-4">7.50€</div>
+            </div>
+            <div class="course-detail">
+                <div class="fa fa-cube" style="display: inline-block;margin-right: 5px;"></div><h3 class="text-left" style="display: inline-block;">DÉTAILS DU PRODUIT</h3>
+                <p><strong>Le chef propose une tarte pleine de saveurs pour cet été : des fruits frais et de la fleur de sureau !</strong></p>
+                <em>Composition : biscuit moelleux amande, imbibage framboise, crème mousseline à la fleur de sureau, compotée de framboises, framboises fraîches</em>
+                <br />
+                <p><strong>Sans farine de blé</strong></p>
+                <em>Disponible dans toutes nos boutiques !</em>
+                <br />
+                <br />
+                <p><strong>*********************************</strong></p>
+                <em>Commande possible en boutique ou par téléphone.</em>
+                <br />
+                <p><strong>Disponible en livraison par coursier "au plus vite" (en 1h30)  ou "sur rendez-vous" (à heures & dates précises dans les 15 jours) sur Paris & petite couronne.</strong></p>
+                <p>*********************************</p>
+                <em>Découvrez les coordonnées de nos boutiques en cliquant ici </em>
+                <p><strong>Poids net</strong> : 110 g</p>
+                <br />
+                <div class="course-extra">
+                    <span>+ PLUS D'INFORMATIONS</span>
+                </div>
+                <div class="extra-info">
+                    <br />
+                    <em>Conseils d'utilisation et de conservation : conserver au réfrigérateur jusqu'à consommation. À déguster dans les 2 jours.</em>
+                    <br />
+                    <br />
+                    <em>Fabriqué en France // Laboratoire Christophe Michalak ​- 03 rue Gabriel Laumain 75010 Paris</em>
+                </div>
+                <br />
+                <div class="row font-8">
+                    <div class="fa fa-truck" style="font-size: 22px;display: inline-block;"></div>
+                    <p style="font-size: 22px;display: inline-block;">DISPONIBILITÉ</p>
+                </div>
+                <div class="row course-delivery font-8">
+                    <div class="col-md-6">
+                        <div>
+                            <div class="fa fa-home col-md-4"></div>
+                            <p class="col-md-8" style="line-height: 65px;">RETRAIT EN BOUTIQUE</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="fa fa-user col-md-4"></div>
+                        <p class="col-md-8" style="line-height: 30px;">LIVRAISON PARIS EN 1H30 OU SUR RDV</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(".course-extra").click(function () { 
+        var extra = $(".extra-info");
+        if (extra.hasClass('active')) {
+            extra.removeClass('active');
+            extra.slideUp();
+        }
+        else {
+            extra.addClass('active');
+            extra.slideDown();
+        }
+    });
+</script>

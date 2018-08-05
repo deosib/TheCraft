@@ -59,3 +59,58 @@
     margin-bottom: 20px;
     letter-spacing: 0.01em;
 }
+
+.grid-ws {
+    background: url('../images/gridtile.png');
+    width: 100%;
+    height: 10vh;
+}
+
+.course-info {
+    background-color: #F2F2F2;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.course-title {
+    font-weight: bold;
+}
+
+.course-info h3 {
+    margin-bottom: 20px;
+}
+
+.c-title {
+    font-size: 24px;
+}
+
+.c-price {
+    text-align: right;
+    font-size: 26px;
+}
+
+.course-detail p, .course-detail em {
+    margin-bottom: 5px;
+}
+
+.course-extra {
+    text-align: center;
+    background-color: rgb(47,46,46);
+    border: solid rgba(47, 46, 46, 1) 2px;
+    cursor: pointer !important;
+    font: normal normal normal 24px/1.4em dinneuzeitgroteskltw01-_812426,sans-serif;
+}
+
+    .course-extra span {
+        color: #fff;
+        font-size: 14px;
+        margin: auto;
+    }
+
+.extra-info {
+    display: none;
+}
+
+.course-delivery .fa {
+    font-size: 65px;
+}
