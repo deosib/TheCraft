@@ -7,7 +7,8 @@
 }
 
 .banner-w3l {
-    background-color: rgba(249, 219, 121, 1);
+    background: url('../images/index.png') no-repeat;
+    background-size: cover;
     text-align: center;
     height: 100vh;
 }
@@ -91,13 +92,6 @@
         border: solid rgba(47, 46, 46, 1) 2px;
     }
 
-.tc-b1-img {
-    background: url('../../images/2.png') no-repeat;
-    background-size: cover;
-    width: 680px;
-    height: 650px;
-}
-
 .tc-b3-img {
     background: url('../../images/3.png') no-repeat;
     background-size: cover;
@@ -151,7 +145,11 @@
 }
 
     .services-wthree .container {
-        background: url(../../images/10.png) no-repeat 0px 0px;
+        margin: initial;
+        padding: initial;
+        max-width: initial;
+        width: initial;
+        background: url('../images/index-2.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
@@ -213,31 +211,31 @@
     margin-right: 0;
 }
 
-    .block2-txt > div {
-        display: table-cell;
-        vertical-align: middle;
+.block2-txt > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.block2-txt .menu-ref {
+    border: solid rgba(0, 0, 0, 1) 2px;
+    background-color: #fff;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+    .block2-txt .menu-ref:hover {
+        background-color: #000;
     }
 
-    .block2-txt .menu-ref {
-        border: solid rgba(0, 0, 0, 1) 2px;
-        background-color: #fff;
-        -moz-transition: all .2s ease-in;
-        -o-transition: all .2s ease-in;
-        -webkit-transition: all .2s ease-in;
-        transition: all .2s ease-in;
+    .block2-txt .menu-ref a span {
+        color: #000;
     }
 
-        .block2-txt .menu-ref:hover {
-            background-color: #000;
-        }
-
-        .block2-txt .menu-ref a span {
-            color: #000;
-        }
-
-        .block2-txt .menu-ref:hover a span {
-            color: #fff;
-        }
+    .block2-txt .menu-ref:hover a span {
+        color: #fff;
+    }
 
 .block-title {
     text-align: center;
@@ -260,26 +258,24 @@
 }
 
 .services-bottom {
-    background-color: rgb(181, 232, 213);
 }
 
     .services-bottom .container {
-        background: url(../../images/12B.png) no-repeat 0px 0px;
+        /*background: url(../../images/12B.png) no-repeat 0px 0px;
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
-        background-size: cover;
+        background-size: cover;*/
         min-height: 600px;
     }
 
         .services-bottom .container > div {
-            position: absolute;
+            /*position: absolute;
             background: url(../../images/12.png) no-repeat 0px 0px;
             background-repeat: no-repeat;
-            /*background-position: 0 -50px;*/
             background-size: contain;
             width: 100%;
-            height: 781px;
+            height: 781px;*/
         }
 
 .bottom-tag {
@@ -330,7 +326,7 @@
         }
 
 .twoside {
-    background-image: url('../../images/2.png');
+    background-image: url('../images/index-1.png');
     background-repeat: no-repeat;
     background-size: 50% 100%;
 }
@@ -344,8 +340,8 @@
 }
 
 .bg-img {
-    background: url(../../images/12B.png) no-repeat 0px 0px;
-    background-repeat: no-repeat;
+    background: url('../images/index-3.png') no-repeat 0 0;
+    /*background: url(../../images/12B.png) no-repeat 0px 0px;*/
     background-position: center;
     background-attachment: fixed;
     background-size: contain;
@@ -360,7 +356,7 @@
 }
 
 .owl-dots {
-    display:none;
+    display: none;
 }
 
 .banner-about, .banner-workshop {
